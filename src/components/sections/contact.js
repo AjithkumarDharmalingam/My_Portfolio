@@ -166,18 +166,21 @@ const Contact = () => {
             }}
           />
 
-          <TextField
+          <TextField 
             placeholder="Your Message"
-            size="small"
+            size="normal"
+            multiline
+            rows={3}
             sx={{
               background: "#454545",
               ":placeholder": { color: "#838686" },
               borderRadius: "5px",
-              ".css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root": {
-                height: { lg: "100px", md: "100px", sm: "70px", xs: "70px" }
-              }
+              // ".css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root": {
+              //   height: { lg: "100px", md: "100px", sm: "70px", xs: "70px" }
+              // }
             }}
           />
+          
           <Button
             sx={{
               background: "#ff004f",
