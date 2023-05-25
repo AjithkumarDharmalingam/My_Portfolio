@@ -32,7 +32,7 @@ const Project = () => {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
-          margin: { lg: "5rem", md: "5rem", sm: "5rem", xs: "5rem  0" }
+          margin: { lg: "5rem", md: "5rem", sm: "5rem", xs: "5rem  0" },
         }}
       >
         <Box

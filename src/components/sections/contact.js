@@ -91,6 +91,7 @@ const Contact = () => {
             <FacebookOutlinedIcon
               sx={{
                 color: "#fff",
+                cursor:"pointer",
                 width: { lg: "30px", md: "30px", sm: "20px", xs: "20px" },
                 height: { lg: "30px", md: "30px", sm: "20px", xs: "20px" }
               }}
@@ -102,8 +103,9 @@ const Contact = () => {
             <TwitterIcon
               sx={{
                 background: "#fff",
-                width: { lg: "28px", md: "28px", sm: "18px", xs: "18px" },
-                height: { lg: "28px", md: "28px", sm: "18px", xs: "18px" },
+                cursor:"pointer",
+                width: { lg: "25px", md: "25px", sm: "18px", xs: "18px" },
+                height: { lg: "26px", md: "26px", sm: "18px", xs: "18px" },
                 borderRadius: "7px"
               }}
               onClick={() => window.open("")}
@@ -111,6 +113,7 @@ const Contact = () => {
             <InstagramIcon
               sx={{
                 color: "#fff",
+                cursor:"pointer",
                 width: { lg: "30px", md: "30px", sm: "20px", xs: "20px" },
                 height: { lg: "30px", md: "30px", sm: "20px", xs: "20px" }
               }}
@@ -120,6 +123,7 @@ const Contact = () => {
             <LinkedInIcon
               sx={{
                 color: "#fff",
+                cursor:"pointer",
                 width: { lg: "30px", md: "30px", sm: "20px", xs: "20px" },
                 height: { lg: "30px", md: "30px", sm: "20px", xs: "20px" }
               }}
@@ -175,9 +179,6 @@ const Contact = () => {
               background: "#454545",
               ":placeholder": { color: "#838686" },
               borderRadius: "5px",
-              // ".css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root": {
-              //   height: { lg: "100px", md: "100px", sm: "70px", xs: "70px" }
-              // }
             }}
           />
           
