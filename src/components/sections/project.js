@@ -642,6 +642,7 @@ const Project = () => {
                   fontFamily: "Poppins",
                   fontWeight: "700"
                 }}
+                onClick={() => window.open("https://github.com/AjithkumarDharmalingam/ticketResolving-fe.git")}
               >
                 Github FE
                 <svg
@@ -670,6 +671,7 @@ const Project = () => {
                   fontFamily: "Poppins",
                   fontWeight: "700"
                 }}
+                onClick={() => window.open("https://gleeful-khapse-2c5cb2.netlify.app/")}
               >
                 View Site
                 <svg
@@ -698,6 +700,7 @@ const Project = () => {
                   fontFamily: "Poppins",
                   fontWeight: "700"
                 }}
+                onClick={() => window.open("https://github.com/AjithkumarDharmalingam/ticketResolving-be.git")}
               >
                 Github BE
                 <svg
