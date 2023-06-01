@@ -73,7 +73,7 @@ const Sectionone = () => {
           sx={{
             color: "#fff",
             paddingInline: { lg: "45px", md: "45px", sm: "45px" },
-            fontSize: { lg: "15px", md: "15px", sm: "15px", xs: "15px" },
+            fontSize: { lg: "20px", md: "20px", sm: "15px", xs: "15px" },
             fontFamily: "Poppins,sans-serif"
           }}
         >
@@ -95,7 +95,7 @@ const Sectionone = () => {
             textTransform: "capitalize",
             fontFamily: "sans-serif,Poppins"
           }}
-          onClick={() => window.open("")}
+          onClick={() => window.open("https://drive.google.com/file/d/1fpzWhcErxSJgpgdA84-ppeYS6Mx34fVG/view?usp=sharing")}
         >
           View My CV.<svg
             stroke="currentColor"
@@ -169,7 +169,7 @@ const Sectionone = () => {
               fontWeight: "bold",
               textTransform: "capitalize"
             }}
-            onClick={() => window.open("")}
+            onClick={() => window.open("http://www.linkedin.com/in/ajithkumar-d-161165279")}
           >
             <svg
               stroke="currentColor"

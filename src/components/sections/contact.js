@@ -127,7 +127,7 @@ const Contact = () => {
                 width: { lg: "30px", md: "30px", sm: "20px", xs: "20px" },
                 height: { lg: "30px", md: "30px", sm: "20px", xs: "20px" }
               }}
-              onClick={() => window.open("")}
+              onClick={() => window.open("http://www.linkedin.com/in/ajithkumar-d-161165279")}
             />
           </Box>
           <Button
