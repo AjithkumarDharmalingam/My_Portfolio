@@ -95,7 +95,7 @@ const Sectionone = () => {
             textTransform: "capitalize",
             fontFamily: "sans-serif,Poppins"
           }}
-          onClick={() => window.open("https://drive.google.com/file/d/1fpzWhcErxSJgpgdA84-ppeYS6Mx34fVG/view?usp=sharing")}
+          onClick={() => window.open("https://drive.google.com/file/d/11MUgz-Z-Ipttj8iJSWukoVVF2pvbDAvC/view?usp=sharing")}
         >
           View My CV.<svg
             stroke="currentColor"
