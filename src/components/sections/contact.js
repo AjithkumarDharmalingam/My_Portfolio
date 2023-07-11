@@ -2,10 +2,8 @@ import { Box, Button, Stack, TextField, Typography } from "@mui/material";
 import React from "react";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import ContactsIcon from "@mui/icons-material/Contacts";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+
 const Contact = () => {
   return (
     <Box
@@ -87,48 +85,17 @@ const Contact = () => {
               8220782876
             </Typography>
           </Box>
-          <Box sx={{ display: "flex", gap: "15px" }}>
-            <FacebookOutlinedIcon
+          <Box sx={{ display: "flex", gap: "10px" }}>
+            <LocationOnIcon sx={{ color: "#ff004f" }} />
+            <Typography
               sx={{
                 color: "#fff",
-                cursor:"pointer",
-                width: { lg: "30px", md: "30px", sm: "20px", xs: "20px" },
-                height: { lg: "30px", md: "30px", sm: "20px", xs: "20px" }
+                fontFamily: "Poppins",
+                fontSize: { lg: "1rem", md: "1rem", sm: "0.7rem", xs: "0.7rem" }
               }}
-              onClick={() =>
-                window.open(
-                  "https://www.facebook.com/profile.php?id=100015491400243"
-                )}
-            />
-            <TwitterIcon
-              sx={{
-                background: "#fff",
-                cursor:"pointer",
-                width: { lg: "25px", md: "25px", sm: "18px", xs: "18px" },
-                height: { lg: "26px", md: "26px", sm: "18px", xs: "18px" },
-                borderRadius: "7px"
-              }}
-              onClick={() => window.open("")}
-            />
-            <InstagramIcon
-              sx={{
-                color: "#fff",
-                cursor:"pointer",
-                width: { lg: "30px", md: "30px", sm: "20px", xs: "20px" },
-                height: { lg: "30px", md: "30px", sm: "20px", xs: "20px" }
-              }}
-              onClick={() =>
-                window.open("https://www.instagram.com/aj.ithkumar433")}
-            />
-            <LinkedInIcon
-              sx={{
-                color: "#fff",
-                cursor:"pointer",
-                width: { lg: "30px", md: "30px", sm: "20px", xs: "20px" },
-                height: { lg: "30px", md: "30px", sm: "20px", xs: "20px" }
-              }}
-              onClick={() => window.open("http://www.linkedin.com/in/ajithkumar-d-161165279")}
-            />
+            >
+              Namakkal, India
+            </Typography>
           </Box>
           <Button
             sx={{
